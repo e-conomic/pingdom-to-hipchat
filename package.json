@@ -1,0 +1,19 @@
+{
+  "name": "pingdom-to-hipchat",
+  "version": "1.0.0",
+  "description": "Forward pingdom webhook alerts to hipchat",
+  "private": "true",
+  "main": "index.js",
+  "service": {
+    "registry": "public/pingdom-to-hipchat"
+  },
+  "dependencies": {
+    "newrelic": "git+ssh://git@github.com:e-conomic/newrelic#v1.1.1",
+    "request": "^2.61.0",
+    "hipchatter": "^0.2.0",
+    "root": "^3.0.0"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}
